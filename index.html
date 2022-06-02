@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <link href="style.css" rel="stylesheet" />
+        <title>Pokemon | API</title>
+    </head>
+    <body>
+        <h1 class="font__8-bit text__text-center">Pokemon Search</h1>
+        <div class="container__search">
+            <input class="flex flex__align-center" type="text">
+            <div class="container__button">
+                <button id="search-button" class="font__8-bit">GO!</button>
+                <button id="random-button" class="font__8-bit">random</button>
+                <button id="clear-button" class="font__8-bit">clear</button>
+            </div>
+        </div>
+        <div class="gameboy flex flex__align-center">
+            <div class="gameboy__border-outer">
+                <div class="gameboy__border-inner">
+                    <div class="container__pokemon flex__align-center flex__flex-col">
+                        <div class="image__container"></div>
+                        <h2 class="text__poke-name font__8-bit text__text-center"></h2>
+                    </div>
+                </div>
+                <div class="gameboy__button-a gameboy__button-text flex flex__align-center">A</div>
+                <div class="gameboy__button-b gameboy__button-text flex flex__align-center">B</div>
+                <div class="gameboy__container__button-direction">
+                    <div class="gameboy__direction-top"></div>
+                    <div class="gameboy__direction-right"></div>
+                    <div class="gameboy__direction-bottom"></div>
+                    <div class="gameboy__direction-left"></div>
+                </div>
+                <div class="gameboy__container__button-start-select">
+                    <div class="gameboy__select"></div>
+                    <div class="gameboy__start"></div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
