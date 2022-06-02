@@ -1,2 +1,3 @@
 # poke-search
-A simple web app that searches and displays Pokémon images and names using vanilla JavaScript
+Pokemon search web app. 
+Queries the Poke API (https://pokeapi.co/) for data and displays image and name. Made with HTML, CSS and vanilla JavaScript.
